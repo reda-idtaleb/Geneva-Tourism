@@ -1,0 +1,277 @@
+#corp {
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px; 
+  background-color: whitesmoke;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px; 
+}
+
+header{
+  height: 100px;
+  background-image: url("../images/samuel.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: local; 
+  background-size: cover;
+  background-color: white;
+  filter: hue-rotate(120deg);
+  -webkit-filter: hue-rotate(120deg);
+  opacity: 0.8;
+  padding-bottom: 45%;
+  border-radius:5px;
+}
+
+nav{
+  background-color:rgba(153, 93, 125, 0.75) ;
+  text-align: center;
+  padding: 20px;
+  transition: 1s;
+  border-radius: 5px ;
+  box-shadow: 0px 3px 4px 0px #965e7c;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+
+nav:hover{
+  background-color: rgba(150, 94, 124, 0.9);
+  box-shadow: 0px 3px 8px 0px rgba(150, 94, 124, 0.8);
+  transition: 1s;
+}
+
+nav a{
+  color: white;
+  font-family: "Lucida Console";
+  font-size: 20px;
+  margin: 30px;
+}
+
+nav a:hover{
+  text-shadow: white 0px 0px 5px;
+  padding-bottom: white solid 1px ;
+  padding-bottom: 4px;
+  border-bottom: white solid 1px;
+  transition: 0.6s;
+}
+
+nav a:active{
+  color: rgba(252, 196, 76, 1);
+}
+
+header h1{
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 100px;
+  max-width: 95%;
+  max-height: 80%;
+  top: 30%;
+  left: 15%;
+  position: absolute;
+}
+
+
+
+#corp p:first-child{
+  text-align: center;
+  margin-top: 5%;
+  font-family: "Comic Sans MS";
+  font-size: 35px;
+  color: grey;
+}
+
+div.presentation-general div.palette+p{
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+  padding: 3%;
+}
+
+div.presentation-general>div[class~="palette"]+div:nth-of-type(2){
+  margin-left: 25%;
+}
+
+div[class~="presentation-general"]>div:nth-of-type(2)+div[class~="palette"]+div{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+div[class~="presentation-general"]{
+  margin-top: 8%;
+}
+
+main[id="corp"] .presentation{
+  position: relative;
+  background-color: white;
+  margin: 50px; 
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  max-height: 85%;
+}
+
+div.palette{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-height:80%;
+  background-color: white;
+}
+
+div.all+p{
+  
+  margin-left: 2%;
+  max-height: 70%;
+  max-width: 95%;
+  color: grey;
+  font-size: 100px;
+  text-align: center;
+  opacity: 0.1;
+  text-shadow: 2px 2px 5px grey;
+}
+
+div.all+p+div{
+  text-align: justify;
+  font-family: Impact, Charcoal, sans-serif;
+  background-color: white;
+  color: #002973;
+  font-size: larger;
+  line-height: 150%;
+  margin-top: 0%;
+  padding: 20px 25px 20px 25px;
+  box-shadow: 0px 0px 2px 0px #ccc;
+}
+
+div.all+p+div h4{
+  font-size: 55px;
+  text-align: center;
+  font-family: Impact, Charcoal, serif;
+}
+
+main div:nth-of-type(n+3)+p{
+  color: grey;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+  padding-top: 5%;
+  margin-bottom: -3%;
+}
+
+table {
+border-collapse:collapse;
+width:100%;
+max-width:700px;
+min-width:400px;
+text-align:center;
+}
+
+caption {
+  text-align: center;
+font-weight:bold;
+ margin:15px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #b2859d;
+  font-size: 35px;
+  text-shadow: 2px 1px 1px pink;
+  margin-bottom: 8%; 
+  
+}
+
+div[class~="all"]~div:nth-child(n+3){
+  background-color: white;
+  margin-top: 10%;
+}
+
+div[class~="all"]~div>div{
+  max-width: 95%;
+  background-color: rgba(153, 93, 125, 0.1);
+  display: inline-block;
+  width: 70%;
+  box-shadow: 0px 0px 4px 2px rgba(200,120,120,0.6) ;
+  margin: 15px 0px 15px 15%; 
+}
+
+div[class~="all"]~div>div img{
+  position: relative;
+  max-height: 70%;
+  max-width: 95%;
+  padding: 2.5%;
+  margin-top: -5%;
+  border-radius: 40px;
+}
+
+div.image{
+  text-align: center;
+}
+div.all~h3{
+  font-size:28px;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  color: #002973;
+  text-shadow:0px 1px 2px purple;
+  margin-top: 1%;
+  margin-bottom: -9%;
+  background-color: white;
+  padding: 3%;
+}
+
+div[class~="all"]~div h3{
+  color: white;
+  padding: 5px 0px 5px 0px;
+  position: relative;
+  top:-10px;
+  text-align: center;
+  background-color: rgba(153, 93, 125, 0.75) ;
+  box-shadow: 0px 3px 4px 0px #965e7c;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.all ~ table{
+  box-shadow: 1px 1px 5px 2px #ccc;
+}
+
+.all ~ table,.all ~ table th, .all ~ table td {
+  border: 3px solid white;
+  margin:auto;
+}
+
+.all ~ table th, .all ~ table td {
+  padding:4px;
+  vertical-align:middle;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size:18px;
+}
+
+.all ~ table th{
+  background-color: rgba(252, 196, 76, 1);
+  width: 30%;
+  color: #84514b ;
+  padding: 3%;
+}
+
+.all ~ table tr>th:nth-of-type(n+2){
+  width: 40%;
+}
+
+.all ~ table td{
+  background: linear-gradient(rgba(242, 164, 157, 0.75), rgba(214, 155, 149,0.82));
+  animation: 0.8s;
+  padding: 2%;
+}
+
+.all ~ table td a{
+  color: white;
+  font-weight: bold;
+}
+
+.all ~ table td:hover{
+  background-color: rgba(132, 81, 75, 0.5);
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+  animation: 0.6s
+}

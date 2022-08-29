@@ -1,0 +1,88 @@
+header h1{
+  color: white;
+  font-family: "Comic Sans MS";
+  font-size: 180px;
+  max-width: 95%;
+  max-height: 80%;
+  top: 25%;
+  left: 25%;
+  position: absolute;
+}
+
+header h1 span:nth-child(2){
+  margin-left: 30%; 
+}
+
+strong{
+  color:#fcc44c;
+}
+
+table strong{
+  color: rgb(112, 81, 97);
+}
+
+div a{
+  color:#c4629c; 
+}
+
+div a:hover{
+  color: darkblue;
+  text-shadow: 1px 1px 2px violet;
+  
+}
+.palette table{
+  max-width: 100%;
+  margin-top:-15px;
+  color: white;
+  border:solid  white;
+}
+
+.palette table td, .palette table th{
+  border: solid 3px  whitesmoke ;
+}
+
+.palette table th{
+  background-color: rgb(252, 196, 76);
+  padding: 1.5%;
+  font-size: 20px;
+  font-family:  Impact, Charcoal, serif;
+  color: rgb(112, 81, 97);
+}
+
+.palette table td{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1%;
+  text-align: justify;
+  font-family:  Impact, Charcoal, sans-serif;
+}
+
+.palette table tr:nth-child(4) th, .palette table tr:nth-child(5) th{
+  background-color: rgba(252, 196, 76, 0.76);
+  color: white;
+  text-align: left;
+  font-size: large;
+}
+
+div.palette h3{
+  text-align: center;
+  color: grey;
+  font-size:35px;
+  padding-top: 1.5%;
+}
+
+div.presentation p{
+  font-family:monospace;
+  font-size: 15px;
+  padding: 0px 18px 18px 18px;
+  text-align:justify;
+  line-height: 25px;
+  color: rgba(0,0,0,0.6);
+}
+
+ol, ul{
+  font-family:monospace;
+  font-size: 18px;
+  padding: 0px 0px 35px 90px;
+  line-height: 25px;
+  color: rgba(0,0,0,0.6);
+}
